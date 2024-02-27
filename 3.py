@@ -1,6 +1,6 @@
-N = int(input())
+n = int(input())
 dictionary = {}
-for i in range(N):
+for i in range(n):
     key, value = input().split()
     dictionary[key] = value
     dictionary[value] = key

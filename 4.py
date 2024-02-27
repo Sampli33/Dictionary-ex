@@ -5,5 +5,5 @@ for i in range(n):
     dictionary[elem[0]] = elem[1:]
 subject = input()
 for i in dictionary:
-    if subject in dictionary.get(i):
+    if subject in dictionary[i]:
         print(i)

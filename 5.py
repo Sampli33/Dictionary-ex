@@ -1,6 +1,6 @@
-N = int(input())
+n = int(input())
 tree = {}
-for i in range(N):
+for i in range(n):
     p, c = input().split()
     if p not in tree:
         tree[p] = []

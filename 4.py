@@ -1,6 +1,6 @@
-N = int(input())
+n = int(input())
 dictionary = {}
-for i in range(N):
+for i in range(n):
     elem = input().split()
     dictionary[elem[0]] = elem[1:]
 subject = input()
